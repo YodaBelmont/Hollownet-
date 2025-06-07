@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 6, 2025, 8:56:04 AM
+    Author     : Vargas Caleb
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding-top: 90px;
+    background: linear-gradient(to bottom, #20E0D2, #A584E8);
+    font-family: 'Courier New', monospace;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #621FBE;
+    color: white;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+
+.logo {
+    height: 60px;
+}
+
+.site-title {
+    margin: 0 20px;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFFFFF;
+    flex-grow: 1;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+nav a:hover {
+    background-color: #320D6D;
+    color: #A584E8;
+    text-decoration: none;
+}
+
+main {
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: auto;
+    color: #F0F0F0;
+}

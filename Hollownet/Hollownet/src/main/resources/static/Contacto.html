@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - HollowNet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding-top: 110px;
+      background-color: #1D124D;
+      font-family: 'Courier New', monospace;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #621FBE;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 999;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 70px;
+      margin-right: 12px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .site-title {
+      margin-left: 10px;
+      font-size: 2em;
+      font-family: 'Press Start 2P', monospace;
+      white-space: nowrap;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      flex: 3;
+      padding-top: 6px;
+    }
+
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #320D6D;
+      color: #A584E8;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    .contacto-box {
+      background-color: #320D6D;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 500px;
+      margin: 40px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .contacto-box h2 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #A584E8;
+    }
+
+    .contacto-box p {
+      font-size: 1em;
+      color: #E0E0E0;
+      margin: 10px 0;
+    }
+
+    .emoji {
+      font-size: 1.2em;
+      margin-right: 6px;
+    }
+
+    .extra-cute {
+      margin-top: 30px;
+      font-style: italic;
+      color: #f0f3f4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <a href="index.html">
+        <img src="Robot.png" alt="HollowNet Logo" class="logo">
+      </a>
+      <h1 class="site-title">HollowNet</h1>
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="Lanzamientos.html">Lanzamientos</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="Contacto.html">Contacto</a>
+      <a href="Registro.html">Registro</a>
+      <a href="Login.html">Login</a>
+      <a href="Acerca.html">Acerca</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contacto-box">
+      <h2>Contacto</h2>
+      <p><span class="emoji">💌</span>Correo: <strong>hollownet@gmail.com</strong></p>
+      <p><span class="emoji">📱</span>Celular: <strong>+506 8888-3332</strong></p>
+      <p class="extra-cute"> Contactanos si quieres ser parte de nuestro equipo</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Noticias - HollowNet</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                padding-top: 110px;
+                background-color: #1D124D;
+                font-family: 'Courier New', monospace;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #621FBE;
+                color: white;
+                padding: 14px 24px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+                z-index: 999;
+                flex-wrap: wrap;
+            }
+
+            .logo {
+                height: 70px;
+                margin-right: 12px;
+            }
+
+            .header-left {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                min-width: 250px;
+            }
+
+            .site-title {
+                margin-left: 10px;
+                font-size: 2em;
+                font-family: 'Press Start 2P', monospace;
+                white-space: nowrap;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+                flex: 3;
+                padding-top: 6px;
+            }
+
+            nav a {
+                color: #FFFFFF;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 8px;
+                border-radius: 4px;
+                font-size: 15px;
+                transition: all 0.3s ease;
+            }
+
+            nav a:hover {
+                background-color: #320D6D;
+                color: #A584E8;
+            }
+
+            main {
+                padding: 40px 20px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+                margin-bottom: 20px;
+                font-family: 'Press Start 2P', monospace;
+            }
+
+            .noticias {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+            }
+
+            .noticia {
+                background-color: #621FBE;
+                border-radius: 10px;
+                padding: 20px;
+                max-width: 300px;
+                text-align: center;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            }
+
+            .noticia h3 {
+                font-family: 'Press Start 2P', monospace;
+                font-size: 1em;
+                margin-bottom: 10px;
+                color: #f0f3f4;
+            }
+
+            .noticia p {
+                font-size: 0.9em;
+                margin-bottom: 10px;
+                color: #E0E0E0;
+            }
+
+            .noticia img {
+                width: 100%;
+                border-radius: 6px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <a href="index.html">
+                    <img src="Robot.png" alt="HollowNet Logo" class="logo">
+                </a>
+                <h1 class="site-title">HollowNet</h1>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="Lanzamientos.html">Lanzamientos</a>
+                <a href="Reviews.html">Reviews</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Registro.html">Registro</a>
+                <a href="Login.html">Login</a>
+                <a href="Acerca.html">Acerca</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <h2>Ultimas Noticias</h2>
+            <section class="noticias">
+
+                <div class="noticia">
+                    <h3>Switch 2 está carisimo</h3>
+                    <p>Nintendo nos quiere estafar con <strong>precios ridiculos</strong>.</p>
+                    <img src="switch2.jpeg" alt="Switch 2 carísimo">
+                </div>
+
+                <div class="noticia">
+                    <h3>Minecraft</h3>
+                    <p>Mojang</p>
+                    <img src="minecraft.jpg" alt="minecraft">
+                </div>
+
+                <div class="noticia">
+                    <h3>Ejemplo</h3>
+                    <p>Ejemplo</p>
+                    <img src="switch2.jpeg" alt="Switch 2 carísimo">
+                </div>
+
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro - HollowNet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+      
+      
+    body {
+      margin: 0;
+      padding-top: 110px;
+      background-color: #1D124D;
+      font-family: 'Courier New', monospace;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #621FBE;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 999;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 70px;
+      margin-right: 12px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .site-title {
+      margin-left: 10px;
+      font-size: 2em;
+      font-family: 'Press Start 2P', monospace;
+      white-space: nowrap;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      flex: 3;
+      padding-top: 6px;
+    }
+
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #320D6D;
+      color: #A584E8;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    
+    
+    
+    .registro-box {
+      background-color: #320D6D;
+      border-radius: 12px;
+      width: 80%;
+      max-width: 400px;
+      padding: 30px;
+      margin: 0 auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      text-align: left;
+    }
+
+    .registro-box h2 {
+      text-align: center;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #A584E8;
+    }
+
+    
+    .registro-box label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
+
+    .registro-box input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: none;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      background-color: #621FBE;
+      color: #ffffff;
+    }
+
+    .registro-box button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      background-color: #A584E8;
+      color: white;
+      font-weight: bold;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    
+    .registro-box button:hover {
+      background-color: #7b4ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <a href="index.html">
+        <img src="Robot.png" alt="HollowNet Logo" class="logo">
+      </a>
+      <h1 class="site-title">HollowNet</h1>
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="Lanzamientos.html">Lanzamientos</a>
+      <a href="Reviews.html">Reviews</a>
+      <a href="Contacto.html">Contacto</a>
+      <a href="Registro.html">Registro</a>
+      <a href="Login.html">Login</a>
+      <a href="Acerca.html">Acerca</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="registro-box">
+      <h2>Registro</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="clave">Contrasena</label>
+        <input type="password" id="clave" name="clave" required>
+
+        <button type="submit">Crear cuenta</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
+
