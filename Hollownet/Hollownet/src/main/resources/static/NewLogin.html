@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicar Sesión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1a0b47;
+      color: #1a0b47;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .login-box {
+      max-width: 400px;
+      margin: 100px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .btn-primary {
+      background-color: #1a0b47;
+      border: none;
+    }
+
+    .btn-outline-dark {
+      width: 100%;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+    }
+
+    .logo img {
+      height: 30px;
+    }
+
+    a {
+      font-size: 0.8rem;
+      color: #1a0b47;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .form-control::placeholder {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+
+    <img src="HollowWhiteFondo.png" alt="HollowNet Logo">
+    <h3>HollowNet</h3>
+  </div>
+
+  <div class="login-box shadow">
+    <h5 class="mb-4 text-center">Acceder</h5>
+    <form>
+      <div class="mb-3">
+        <label for="user" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="user" placeholder="User">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Siguiente</button>
+      <div class="d-flex justify-content-center mt-2">
+        <a href="#">¿Nuevo Usuario?</a> |
+        <a href="#">Crear tu Cuenta</a>
+      </div>
+    </form>
+    <hr>
+    <button class="btn btn-outline-dark mb-2">
+      <img src="" alt="Logo"> Continuar con Google
+    </button>
+    <button class="btn btn-outline-dark">
+      <img src="https://img.icons8.com/ios-filled/16/000000/mac-os.png" alt="Apple"> Continuar con Apple
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
